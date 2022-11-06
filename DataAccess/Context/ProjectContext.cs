@@ -10,15 +10,19 @@ namespace DataAccess.Context
 {
     public class ProjectContext : IdentityDbContext<IdentityUser>
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public ProjectContext(DbContextOptions<ProjectContext> options) :base(options)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("server=DESKTOP-HBSN76P;database=BilgeOtelDb;Trusted_Connection=True");
-            }
-            base.OnConfiguring(optionsBuilder);
 
         }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    if (!optionsBuilder.IsConfigured)
+        //    {
+        //        optionsBuilder.UseSqlServer(/*"server=DESKTOP-HBSN76P;database=BilgeOtelDb;Trusted_Connection=True"*/);
+        //    }
+        //    base.OnConfiguring(optionsBuilder);
+
+        //}
 
         public DbSet<Department> Departments { get; set; }
         public DbSet<Employee> Employees { get; set; }

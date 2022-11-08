@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TextFile1.txt = TextFile1.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{C36AC805-2E56-443A-9469-A500FF56EB95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{3276AC05-76D0-485B-81F5-4843178CAA0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,10 +34,10 @@ Global
 		{AB5120EA-9ACF-47EA-B464-1EA99D939C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB5120EA-9ACF-47EA-B464-1EA99D939C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB5120EA-9ACF-47EA-B464-1EA99D939C53}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C36AC805-2E56-443A-9469-A500FF56EB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C36AC805-2E56-443A-9469-A500FF56EB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C36AC805-2E56-443A-9469-A500FF56EB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C36AC805-2E56-443A-9469-A500FF56EB95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3276AC05-76D0-485B-81F5-4843178CAA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3276AC05-76D0-485B-81F5-4843178CAA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3276AC05-76D0-485B-81F5-4843178CAA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3276AC05-76D0-485B-81F5-4843178CAA0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
